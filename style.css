@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: myFirstFont;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Gilroy-Light.ttf);
+  }
+  
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: myFirstFont;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#ele1{
+    display: flex;
+    align-items: center;
+    padding: 8px 9px;
+    margin-left: 14px;
+}
+
+#ele11{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 6px 6px;
+}
+i{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 6px 6px;
+}
+#ele3{
+    margin-right: 20px;
+}
+button{
+    font-size: 18px;
+    font-family: myFirstFont;
+    padding: 7px 7px;
+    border-radius:50px ;
+}
+#e2{
+    background-color: #fff;
+}
+#e3{
+    background-color: #f1751d;
+    color: #ffffff;
+}
+
+#center{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#im1{
+    transform: translate(-50%,-50%)rotate(-30deg);
+}
+#im2{
+    transform: translate(-50%,-50%)rotate(-20deg);
+}
+#im3{
+    transform: translate(-50%,-50%)rotate(-10deg);
+}
+#botL{
+   position: absolute;
+   font-size: 17px;
+   bottom: 5%;
+   left: 3%;
+   font-weight: 900;
+}
+#botR{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+    font-weight: 900;
+}
+#ic{
+    display: flex;
+    justify-content: space-evenly;
+    border: none    ;
+}
